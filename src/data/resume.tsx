@@ -1,0 +1,307 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon } from "lucide-react";
+
+export const DATA = {
+  name: "Ajeet Gupta",
+  initials: "AG",
+  url: "https://ajeetgupta.com",
+  location: "Kanpur, Uttar Pradesh, India",
+  locationLink: "https://www.google.com/maps/place/kanpur",
+  description:
+    "Full Stack Developer transitioning into Full Stack AI Engineer — expertise in React, Next.js, Node.js, Spring Boot, C++, DSA, and now exploring LLMs, LangChain, Ollama, and Python ML/AI.",
+  summary: "**Full Stack MERN Developer** transitioning into a **Full Stack AI Engineer**. Specializing in building SCALABLE, Production-Grade SaaS and web applications. Experienced in C++, **NodeJS**, Express, **Spring Boot**, and **cloud-native DevOps solutions**. Strong foundation in **problem-solving** and **software architecture**. Built and deployed **10+ production projects** and actively contributed to high-impact engineering challenges. **DSA solved: [890+ problems](https://www.geeksforgeeks.org/profile/ajeetgupta4?tab=activity)**, **[LeetCode top 10%](https://leetcode.com/u/ajeet_M18/)**. Currently learning **LLMs**, **LangChain**, **Ollama**, **Python**, **Scikit-Learn**, and **TensorFlow** to build AI-powered applications. Exploring **cloud computing**, **Kubernetes**, and **microservices architecture** to enhance application scalability and reliability. Dedicated to writing clean, maintainable code and following best practices in software development.",
+  avatarUrl: "/me.png",
+  skills: [
+    "TypeScript",
+    "JavaScript",
+    "C/C++",
+    "Java",
+    "Spring Boot",
+    "Spring Data JPA",
+    "Spring Security",
+    "SQL",
+
+    "Node.js",
+    "Express.js",
+    "RESTful API Design",
+    "REST API Development",
+    "JWT Authentication",
+
+    "React.js",
+    "Next.js",
+    "Redux",
+    "TailwindCSS",
+    "shadcn/ui",
+
+    "PostgreSQL",
+    "MongoDB",
+    "MySQL",
+    "Redis",
+
+    "AWS (EC2, S3)",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "CI/CD",
+    "Vercel",
+    "Render",
+
+    "Linux (CLI)",
+    "Bash/Shell Scripting",
+
+    "Postman",
+    "Supabase",
+    "Razorpay",
+    "Google Gemini API",
+
+    "LangChain",
+    "LangGraph",
+    "Ollama",
+    "Python",
+    "Scikit-Learn",
+    "TensorFlow",
+  ],
+
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://medium.com/@2301661530002", icon: Icons.mediumRound, label: "Medium" },
+  ],
+  contact: {
+    email: "gajeet031@gmail.com",
+    tel: "+918840713812",
+    social: {
+      GitHub: { name: "GitHub", url: "https://github.com/AJKakarot", icon: Icons.github, navbar: true },
+      LinkedIn: { name: "LinkedIn", url: "https://www.linkedin.com/in/ajeet-gupta-99aa6b281/", icon: Icons.linkedin, navbar: true },
+      medium: { name: "Medium", url: "https://medium.com/@2301661530002", icon: Icons.medium, navbar: false },
+      X: { name: "X", url: "https://x.com/butter69168", icon: Icons.x, navbar: true },
+      WhatsApp: {
+        name: "WhatsApp",
+        url: "https://wa.me/918840713812",
+        icon: Icons.whatsapp,
+        navbar: true,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "IBM",
+      href: "https://courses.ibmmooc.skillsnetwork.site/certificates/b6d821ef9815425b8013f317145d147e",
+      location: "Remote",
+      title: "Cloud Computing Virtual Intern",
+      logoUrl: "/ibm.png",
+      start: "Feb 2026",
+      end: "Mar 2026",
+      description:
+        "**IBM Cloud** & **AWS** fundamentals (IaaS / PaaS / SaaS, virtualization, containers). Hands-on **Docker**, **Linux**, and shell for deployment-style workflows.",
+    },
+    {
+      company: "Modulus",
+      href: "https://www.trymodulus.com",
+      location: "Remote",
+      title: "Full-Stack Development Intern, Scalable Architecture",
+      logoUrl: "/modulus.png",
+      start: "Aug 2025",
+      end: "Nov 2025",
+      description:
+        "Shipped features with **React**, **Node**, **Express**. **JWT** APIs + role-based access. **MongoDB** & **SQL** — schema, indexes, query tuning.",
+    },
+    {
+      company: "E-Cell, AITD",
+      href: "https://ecelldraitd.in",
+      location: "On-site",
+      title: "Technical Coordinator & Backend Engineer (Microservices)",
+      logoUrl: "/aitd.jpeg",
+      start: "Sep 2024",
+      end: "Present",
+      description:
+        "**NextHire** backend: **5 microservices** (Auth, User, Job, Payment, Utils) in **Node**, **Express**, **TypeScript** — **JWT**, **PostgreSQL** (Neon). **Kafka** + **Redis**; **Cloudinary**, **Razorpay**, **Gemini** for resumes & career tools.",
+    },
+    {
+      company: "GeeksforGeeks",
+      href: "https://media.geeksforgeeks.org/auth-certificates/1768761000/7027f80d5f42a2b5ddd3a4ca37ea135a.png",
+      location: "Kanpur, Uttar Pradesh, India (Remote)",
+      title: "Campus Mantri · Part-time",
+      logoUrl: "/gfg-campus-mantri.png",
+      start: "Jan 2026",
+      end: "Present",
+      description:
+        "**Kanpur** · Remote · **Campus Mantri**: campus events, **GFG** learning adoption, liaison between students and GeeksforGeeks.",
+    },
+  ],
+
+  education: [
+    {
+      school: "Dr. Ambedkar Institute of Technology for Divyangjan",
+      href: "https://aitd.ac.in",
+      degree: "B.Tech CSE (AI & ML) — CGPA: 8.01",
+      logoUrl: "/aitd.jpeg",
+      start: "Sep 2023",
+      end: "Aug 2027",
+    },
+    {
+      school: "Udemy",
+      href: "https://drive.google.com/file/d/1XecnLr0HoFsCGU0x7_B75kccauLRUvwf/view?usp=drivesdk",
+      degree: "MERN Stack Full Course (22 hours)",
+      logoUrl: "/udemy.png",
+      start: "2025",
+      end: "2025",
+    },
+  ],
+
+  projects: [
+    {
+      title: "ResumeAI",
+      href: "https://nexthires.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "**Resume / ATS** scoring & career tools. **Next.js**, **Clerk**, **Supabase**. Server-only AI: **Gemini** (paid) / **Hugging Face** (free); API keys stay on server.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Clerk",
+        "Supabase",
+        "Google Gemini",
+        "Hugging Face",
+        "TailwindCSS",
+        "DaisyUI",
+      ],
+      links: [
+        { type: "Live Demo", href: "https://nexthires.app/" },
+        { type: "GitHub", href: "https://github.com/AJKakarot/ResumeAI" },
+      ],
+      image: "",
+      video: "/reusme.MP4",
+    },
+    {
+      title: "MERN Authentication",
+      href: "https://github.com/AJKakarot/Mern-Authentication",
+      dates: "Jan 2026",
+      active: true,
+      description:
+        "**MERN** auth: email verify + OTP. **JWT** access/refresh, **httpOnly cookies**, **Redis** sessions. **CSRF** + RBAC (user/admin).",
+      technologies: [
+        "MongoDB",
+        "Express.js",
+        "React 19",
+        "Node.js",
+        "Redis",
+        "JWT",
+        "CSRF",
+      ],
+      links: [
+        { type: "GitHub", href: "https://github.com/AJKakarot/Mern-Authentication" },
+      ],
+      image: "/mern.png",
+      video: "",
+    },
+    {
+      title: "SehatLink",
+      href: "https://sehat-link-nidm.vercel.app/",
+      dates: "Dec 2025",
+      active: true,
+      description:
+        "**Telemedicine**: doctors, bookings, video consults. **REST** + RBAC, **PostgreSQL** + **Prisma**. **Gemini** symptom guidance (safety-limited).",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Google Gemini API",
+      ],
+      links: [
+        { type: "Live Demo", href: "https://sehat-link-nidm.vercel.app/" },
+        { type: "GitHub", href: "https://github.com/AJKakarot/SehatLink" },
+      ],
+      image: "",
+      video: "/sehat.MP4",
+    },
+    {
+      title: "CashTrackr",
+      href: "https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app",
+      dates: "Nov 2025",
+      active: true,
+      description:
+        "**Finance** dashboard (**Next.js** 15). **Gemini** spend insights. **Prisma** + **MongoDB**; **Vercel**.",
+      technologies: [
+        "Next.js 15",
+        "React",
+        "TailwindCSS",
+        "shadcn/ui",
+        "Framer Motion",
+        "Node.js",
+        "Express.js",
+        "Prisma",
+        "MongoDB",
+        "Vercel",
+      ],
+      links: [
+        { type: "GitHub", href: "https://github.com/AJKakarot/Cash_Trackr" },
+        { type: "Live Demo", href: "https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app" },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+
+  certifications: [
+    {
+      title: "IBM Cloud Computing",
+      issuer: "IBM",
+      date: "Mar 2026",
+      href: "https://courses.ibmmooc.skillsnetwork.site/certificates/b6d821ef9815425b8013f317145d147e",
+      description: "**IBM Skills Network**: cloud models, **Docker**, **Linux**, shell.",
+      logoUrl: "/ibm-certification.png",
+    },
+    {
+      title: "Google Skills — Diamond League",
+      issuer: "Google",
+      date: "2025",
+      href: "https://www.skills.google/public_profiles/9056a883-67c0-4b7e-97de-e7aa234a41a4",
+      description: "**Diamond League** on Google Skills.",
+      logoUrl: "/google-skills-cloud.png",
+    },
+    {
+      title: "AWS Cloud Practitioner",
+      issuer: "GeeksforGeeks",
+      date: "2025",
+      href: "https://media.geeksforgeeks.org/courses/certificates/a6ec07ee8b3f18ae5ae0fb923a3016dc.pdf",
+      description: "**AWS** fundamentals — **EC2**, **S3**, core architecture (GFG).",
+      logoUrl: "/aws-cloud-practitioner-gfg.png",
+    },
+    {
+      title: "MERN Stack Full Course",
+      issuer: "Udemy",
+      date: "2025",
+      href: "https://drive.google.com/file/d/1XecnLr0HoFsCGU0x7_B75kccauLRUvwf/view?usp=drivesdk",
+      description: "**22h** MERN — Mongo, Express, React, Node end-to-end.",
+      logoUrl: "/udemy.png",
+    },
+  ],
+
+  achievements: [
+    {
+      title: "CodeMatrix: Genesis Hackathon — Winner",
+      date: "2025",
+      logoUrl: "/codematrix-hackathon.png",
+      href: "https://www.linkedin.com/posts/ajeet-gupta-99aa6b281_hackathon-hackathonwinner-codematrixgenesis-activity-7406412266633388034-dSpO",
+      description: "Winner — top teams, 500+ participants.",
+    },
+    {
+      title: "ArcticX Winter TechSprint Hackathon — Winner",
+      date: "Jan 2026",
+      logoUrl: "/arcticx-hackathon.png",
+      href: "https://www.linkedin.com/posts/ajeet-gupta-99aa6b281_arcticx-hackathonwinner-2xwinner-activity-7423265017933905920-cdLF",
+      description: "300+ participants — shipped a working product on a tight deadline.",
+    },
+    {
+      title: "Published on GeeksforGeeks",
+      date: "Apr 2026",
+      logoUrl: "/geeksforgeeks-logo.png",
+      href: "https://www.geeksforgeeks.org/work-experiences/will-developer-demand-increase-or-decrease-in-the-future-a-realistic-perspective/",
+      description: "Developer demand, AI impact, backend vs UI-UX — where skills still matter.",
+    },
+  ],
+} as const;
