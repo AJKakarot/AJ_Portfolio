@@ -242,7 +242,7 @@ export const DATA = {
         { type: "Live Demo", href: "https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app" },
       ],
       image: "",
-      video: "/cashtrack.mov",
+      video: "/ccashtrakerrr.MP4",
     },
     {
       title: "studyMeet",
